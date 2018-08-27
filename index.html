@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css">
+    <link rel="stylesheet" href="app.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <p class="title">Codifica tu mensaje o revelalo</p>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="corpse center-align">
+        <div class="container">
+            <div class="row">
+                <div class="col l12 s12 m12 xl12">
+                    <textarea id="textarea1" class="materialize-textarea"></textarea>
+                    <label for="textarea1">Inserta tu mensaje</label>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col l12 s12 m12 xl12">
+                    <button id="code" class="waves-effect waves-light btn-large">Codificar</button>
+                    <button id="decode" class="waves-effect waves-light btn-large">Descodificar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!--js-->
+    <script src="jQuery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
